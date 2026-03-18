@@ -272,7 +272,7 @@ def main():
             })
 
         except Exception as e:
-            print(f"\nError: {e}\n")
+            print(f"\n Error: {e}\n")
             log_audit("agent_error", {"user_input": user_input, "error": str(e)})
 
 
