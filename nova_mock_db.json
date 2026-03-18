@@ -1,0 +1,488 @@
+{
+  "customers": [
+    {
+      "id": "CUST001",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@email.com",
+      "skin_type": "oily",
+      "preferences": [
+        "skincare",
+        "makeup"
+      ],
+      "country": "India",
+      "lifetime_value": 420.00,
+      "loyalty_tier": "Gold"
+    },
+    {
+      "id": "CUST002",
+      "name": "Emily Chen",
+      "email": "emily.chen@email.com",
+      "skin_type": "dry",
+      "preferences": [
+        "skincare",
+        "hair"
+      ],
+      "country": "USA",
+      "lifetime_value": 580.00,
+      "loyalty_tier": "Platinum"
+    },
+    {
+      "id": "CUST003",
+      "name": "Sofia Rodriguez",
+      "email": "sofia.r@email.com",
+      "skin_type": "combination",
+      "preferences": [
+        "makeup",
+        "accessories"
+      ],
+      "country": "Mexico",
+      "lifetime_value": 210.00,
+      "loyalty_tier": "Silver"
+    },
+    {
+      "id": "CUST004",
+      "name": "James Wilson",
+      "email": "james.w@email.com",
+      "skin_type": "sensitive",
+      "preferences": [
+        "skincare",
+        "footwear"
+      ],
+      "country": "UK",
+      "lifetime_value": 340.00,
+      "loyalty_tier": "Gold"
+    },
+    {
+      "id": "CUST005",
+      "name": "Aisha Khan",
+      "email": "aisha.k@email.com",
+      "skin_type": "normal",
+      "preferences": [
+        "apparel",
+        "accessories"
+      ],
+      "country": "UAE",
+      "lifetime_value": 150.00,
+      "loyalty_tier": "Bronze"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD-10001",
+      "customer_id": "CUST001",
+      "items": [
+        {
+          "product_id": "SKU-SC-001",
+          "name": "HydraGlow Vitamin C Serum",
+          "quantity": 1,
+          "price": 38.00
+        },
+        {
+          "product_id": "SKU-MK-012",
+          "name": "Velvet Matte Lipstick - Rose",
+          "quantity": 2,
+          "price": 18.00
+        }
+      ],
+      "total": 74.00,
+      "status": "delivered",
+      "placed_at": "2025-12-10T14:30:00Z",
+      "delivered_at": "2025-12-15T09:00:00Z",
+      "shipping_address": "Mumbai, India",
+      "tracking_number": "NOVA-TRK-88421"
+    },
+    {
+      "order_id": "ORD-10002",
+      "customer_id": "CUST002",
+      "items": [
+        {
+          "product_id": "SKU-SC-005",
+          "name": "DeepMoisture Cream 50ml",
+          "quantity": 1,
+          "price": 42.00
+        },
+        {
+          "product_id": "SKU-HR-003",
+          "name": "Silk Repair Hair Mask",
+          "quantity": 1,
+          "price": 28.00
+        }
+      ],
+      "total": 70.00,
+      "status": "shipped",
+      "placed_at": "2025-12-18T10:15:00Z",
+      "shipped_at": "2025-12-19T16:00:00Z",
+      "shipping_address": "San Francisco, USA",
+      "tracking_number": "NOVA-TRK-88455"
+    },
+    {
+      "order_id": "ORD-10003",
+      "customer_id": "CUST003",
+      "items": [
+        {
+          "product_id": "SKU-MK-020",
+          "name": "GlowUp Foundation - Medium",
+          "quantity": 1,
+          "price": 34.00
+        },
+        {
+          "product_id": "SKU-AC-007",
+          "name": "Crystal Drop Earrings",
+          "quantity": 1,
+          "price": 22.00
+        }
+      ],
+      "total": 56.00,
+      "status": "processing",
+      "placed_at": "2025-12-22T08:45:00Z",
+      "shipping_address": "Mexico City, Mexico",
+      "tracking_number": null
+    },
+    {
+      "order_id": "ORD-10004",
+      "customer_id": "CUST004",
+      "items": [
+        {
+          "product_id": "SKU-SC-010",
+          "name": "CalmSkin Sensitive Cleanser",
+          "quantity": 2,
+          "price": 24.00
+        }
+      ],
+      "total": 48.00,
+      "status": "delivered",
+      "placed_at": "2025-12-05T11:00:00Z",
+      "delivered_at": "2025-12-10T14:30:00Z",
+      "shipping_address": "London, UK",
+      "tracking_number": "NOVA-TRK-88390"
+    },
+    {
+      "order_id": "ORD-10005",
+      "customer_id": "CUST001",
+      "items": [
+        {
+          "product_id": "SKU-SC-001",
+          "name": "HydraGlow Vitamin C Serum",
+          "quantity": 1,
+          "price": 38.00
+        },
+        {
+          "product_id": "SKU-SC-005",
+          "name": "DeepMoisture Cream 50ml",
+          "quantity": 1,
+          "price": 42.00
+        },
+        {
+          "product_id": "SKU-MK-015",
+          "name": "Silk Finish Compact Powder",
+          "quantity": 1,
+          "price": 26.00
+        }
+      ],
+      "total": 106.00,
+      "status": "return_requested",
+      "placed_at": "2025-11-28T09:30:00Z",
+      "delivered_at": "2025-12-03T12:00:00Z",
+      "return_reason": "Product damaged during shipping",
+      "shipping_address": "Mumbai, India",
+      "tracking_number": "NOVA-TRK-88310"
+    },
+    {
+      "order_id": "ORD-10006",
+      "customer_id": "CUST005",
+      "items": [
+        {
+          "product_id": "SKU-AP-008",
+          "name": "UrbanFlex Joggers - Black M",
+          "quantity": 1,
+          "price": 54.00
+        },
+        {
+          "product_id": "SKU-AC-002",
+          "name": "Nova Signature Tote Bag",
+          "quantity": 1,
+          "price": 68.00
+        }
+      ],
+      "total": 122.00,
+      "status": "shipped",
+      "placed_at": "2025-12-20T15:00:00Z",
+      "shipped_at": "2025-12-21T10:30:00Z",
+      "shipping_address": "Dubai, UAE",
+      "tracking_number": "NOVA-TRK-88470"
+    }
+  ],
+  "products": [
+    {
+      "product_id": "SKU-SC-001",
+      "name": "HydraGlow Vitamin C Serum",
+      "category": "skincare",
+      "price": 38.00,
+      "description": "A brightening serum with 15% Vitamin C, Hyaluronic Acid, and Niacinamide. Suitable for oily and combination skin.",
+      "ingredients": [
+        "Vitamin C (15%)",
+        "Hyaluronic Acid",
+        "Niacinamide",
+        "Ferulic Acid",
+        "Vitamin E"
+      ],
+      "skin_types": [
+        "oily",
+        "combination",
+        "normal"
+      ],
+      "in_stock": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "SKU-SC-005",
+      "name": "DeepMoisture Cream 50ml",
+      "category": "skincare",
+      "price": 42.00,
+      "description": "Rich hydrating cream with Shea Butter and Ceramides. Best for dry and sensitive skin types.",
+      "ingredients": [
+        "Shea Butter",
+        "Ceramide Complex",
+        "Squalane",
+        "Jojoba Oil",
+        "Aloe Vera"
+      ],
+      "skin_types": [
+        "dry",
+        "sensitive"
+      ],
+      "in_stock": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "SKU-SC-010",
+      "name": "CalmSkin Sensitive Cleanser",
+      "category": "skincare",
+      "price": 24.00,
+      "description": "Gentle foaming cleanser with Chamomile and Oat Extract. Dermatologist-tested for sensitive skin.",
+      "ingredients": [
+        "Chamomile Extract",
+        "Oat Extract",
+        "Aloe Vera",
+        "Glycerin",
+        "Panthenol"
+      ],
+      "skin_types": [
+        "sensitive",
+        "dry",
+        "normal"
+      ],
+      "in_stock": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "SKU-MK-012",
+      "name": "Velvet Matte Lipstick - Rose",
+      "category": "makeup",
+      "price": 18.00,
+      "description": "Long-lasting matte lipstick in a universally flattering rose shade. Enriched with Vitamin E.",
+      "ingredients": [
+        "Vitamin E",
+        "Jojoba Oil",
+        "Candelilla Wax",
+        "Iron Oxides"
+      ],
+      "skin_types": [
+        "all"
+      ],
+      "in_stock": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "SKU-MK-015",
+      "name": "Silk Finish Compact Powder",
+      "category": "makeup",
+      "price": 26.00,
+      "description": "Lightweight pressed powder for a smooth, poreless finish. Oil-absorbing formula.",
+      "ingredients": [
+        "Silica",
+        "Talc",
+        "Zinc Stearate",
+        "Dimethicone"
+      ],
+      "skin_types": [
+        "oily",
+        "combination"
+      ],
+      "in_stock": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "SKU-MK-020",
+      "name": "GlowUp Foundation - Medium",
+      "category": "makeup",
+      "price": 34.00,
+      "description": "Buildable coverage foundation with SPF 30. Natural luminous finish for all-day wear.",
+      "ingredients": [
+        "Titanium Dioxide",
+        "Hyaluronic Acid",
+        "Vitamin E",
+        "Dimethicone"
+      ],
+      "skin_types": [
+        "all"
+      ],
+      "in_stock": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "SKU-HR-003",
+      "name": "Silk Repair Hair Mask",
+      "category": "hair",
+      "price": 28.00,
+      "description": "Deep conditioning mask with Keratin and Argan Oil. Repairs damaged and colour-treated hair.",
+      "ingredients": [
+        "Keratin",
+        "Argan Oil",
+        "Coconut Oil",
+        "Hydrolyzed Silk Protein"
+      ],
+      "skin_types": [
+        "all"
+      ],
+      "in_stock": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "SKU-AP-008",
+      "name": "UrbanFlex Joggers - Black M",
+      "category": "apparel",
+      "price": 54.00,
+      "description": "Slim-fit joggers with 4-way stretch fabric. Moisture-wicking and breathable. Available in S, M, L, XL.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "in_stock": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": "SKU-FW-004",
+      "name": "CloudStep Running Shoes - White",
+      "category": "footwear",
+      "price": 89.00,
+      "description": "Lightweight running shoes with memory foam insole and EVA midsole. Sizes 6-12.",
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "in_stock": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "SKU-AC-002",
+      "name": "Nova Signature Tote Bag",
+      "category": "accessories",
+      "price": 68.00,
+      "description": "Vegan leather tote bag with magnetic closure. Interior laptop sleeve fits up to 14 inch.",
+      "in_stock": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "SKU-AC-007",
+      "name": "Crystal Drop Earrings",
+      "category": "accessories",
+      "price": 22.00,
+      "description": "Handcrafted sterling silver earrings with Swarovski crystals. Hypoallergenic posts.",
+      "in_stock": false,
+      "rating": 4.9
+    }
+  ],
+  "support_tickets": [
+    {
+      "ticket_id": "TKT-5001",
+      "customer_id": "CUST001",
+      "subject": "Where is my order?",
+      "message": "Hi, I placed order ORD-10005 two weeks ago and it says delivered but I haven't received it. Can you help?",
+      "category": "order_status",
+      "priority": "high",
+      "status": "open",
+      "created_at": "2025-12-20T08:00:00Z"
+    },
+    {
+      "ticket_id": "TKT-5002",
+      "customer_id": "CUST002",
+      "subject": "Is DeepMoisture Cream good for eczema?",
+      "message": "I have eczema-prone skin. Would the DeepMoisture Cream work for me or should I try something else?",
+      "category": "product_query",
+      "priority": "medium",
+      "status": "open",
+      "created_at": "2025-12-21T12:30:00Z"
+    },
+    {
+      "ticket_id": "TKT-5003",
+      "customer_id": "CUST003",
+      "subject": "Return request for damaged item",
+      "message": "The GlowUp Foundation I received was cracked and leaked inside the box. I want a full refund.",
+      "category": "return",
+      "priority": "high",
+      "status": "open",
+      "created_at": "2025-12-23T09:15:00Z"
+    },
+    {
+      "ticket_id": "TKT-5004",
+      "customer_id": "CUST005",
+      "subject": "Recommend me something for winter",
+      "message": "It's winter in Dubai and my skin is getting dry. What skincare products do you recommend?",
+      "category": "recommendation",
+      "priority": "low",
+      "status": "open",
+      "created_at": "2025-12-22T16:00:00Z"
+    },
+    {
+      "ticket_id": "TKT-5005",
+      "customer_id": "CUST004",
+      "subject": "Allergic reaction to cleanser",
+      "message": "I used the CalmSkin Sensitive Cleanser and got a rash on my face. This is unacceptable! I want to speak to a manager NOW!",
+      "category": "escalation",
+      "priority": "critical",
+      "status": "open",
+      "created_at": "2025-12-23T11:45:00Z"
+    }
+  ],
+  "return_policy": {
+    "window_days": 30,
+    "conditions": [
+      "Product must be unused or defective",
+      "Original packaging required for non-defective returns",
+      "Defective items get full refund including shipping",
+      "Non-defective returns get store credit",
+      "Intimate apparel and earrings are final sale"
+    ],
+    "process": "Customer initiates return → Agent verifies eligibility → Return label generated → Refund processed within 5–7 business days after item received"
+  },
+  "faqs": [
+    {
+      "question": "What is NOVA's return policy?",
+      "answer": "NOVA offers a 30-day return window. Unused products in original packaging qualify for store credit. Defective items receive a full refund including shipping costs. Intimate apparel and earrings are final sale."
+    },
+    {
+      "question": "How do I track my order?",
+      "answer": "You can track your order using the tracking number sent to your email after shipping. Visit our website and enter your tracking number in the 'Track Order' section, or simply provide your order ID and we can look it up for you."
+    },
+    {
+      "question": "Are NOVA products cruelty-free?",
+      "answer": "Yes! All NOVA skincare and makeup products are 100% cruelty-free and Leaping Bunny certified. We never test on animals and our suppliers are required to meet the same standards."
+    },
+    {
+      "question": "How do I find the right foundation shade?",
+      "answer": "Use our virtual shade finder on the NOVA app, or order a shade sample kit for $5 (refunded on your first foundation purchase). Our GlowUp Foundation comes in 32 shades across 4 undertone families: cool, warm, neutral, and olive."
+    },
+    {
+      "question": "Do you ship internationally?",
+      "answer": "Yes, NOVA ships to 14 countries worldwide. International orders typically arrive within 7–14 business days. Free shipping on orders over $50 within the US and over $75 internationally."
+    }
+  ]
+}

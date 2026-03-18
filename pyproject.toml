@@ -1,0 +1,20 @@
+[project]
+name = "nova-ai-platform"
+version = "0.1.0"
+description = "NOVA AI Support & Personalization Platform — Multi-agent RAG system"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.10",
+    "langchain-huggingface>=0.2.0",
+    "langchain-chroma>=0.2.0",
+    "langgraph>=0.4.0",
+    "sentence-transformers>=5.2.3",
+    "chromadb>=1.0.0",
+    "torch>=2.10.0",
+    "pypdf>=6.7.3",
+    "python-dotenv>=1.2.1",
+    "ragas>=0.2.0",
+]

@@ -1,0 +1,11 @@
+{"timestamp": "2026-03-18T12:35:40.897625+00:00", "action": "agent_response", "details": {"user_input": "give me list of products", "response_length": 1499}}
+{"timestamp": "2026-03-18T12:36:06.838964+00:00", "action": "agent_response", "details": {"user_input": "may i know price of jewlwry ?", "response_length": 706}}
+{"timestamp": "2026-03-18T12:36:19.313491+00:00", "action": "agent_response", "details": {"user_input": "who r u", "response_length": 354}}
+{"timestamp": "2026-03-18T13:27:03.682308+00:00", "action": "lookup_order", "details": {"order_id": "CUST001"}}
+{"timestamp": "2026-03-18T13:27:32.039581+00:00", "action": "lookup_order", "details": {"order_id": "CUST001"}}
+{"timestamp": "2026-03-18T13:28:25.280772+00:00", "action": "agent_response", "details": {"user_input": "show me this order detail CUST001", "response_length": 566}}
+{"timestamp": "2026-03-18T13:28:57.886949+00:00", "action": "agent_response", "details": {"user_input": "show me details of this customer - CUST001", "response_length": 568}}
+{"timestamp": "2026-03-18T13:29:27.793785+00:00", "action": "lookup_order", "details": {"order_id": "ORD-10002"}}
+{"timestamp": "2026-03-18T13:29:31.372905+00:00", "action": "agent_response", "details": {"user_input": "ok show me tihis order details - ORD-10002", "response_length": 450}}
+{"timestamp": "2026-03-18T13:30:00.363700+00:00", "action": "agent_response", "details": {"user_input": "what was my last question", "response_length": 45}}
+{"timestamp": "2026-03-18T13:30:09.736172+00:00", "action": "agent_response", "details": {"user_input": "ok", "response_length": 365}}
